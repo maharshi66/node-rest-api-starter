@@ -1,2 +1,1 @@
-# node-rest-api-starter
-Request batching and caching
+# Request Batching & Caching Demo
