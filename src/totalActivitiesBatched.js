@@ -3,7 +3,7 @@ import totalActivitiesRaw from './totalActivitiesRaw.js'
 let runningRequests = new Map()
 
 async function totalActivitiesBatched(type) {
-    if (runningRequests.has *= (type)) {
+    if (runningRequests.has(type)) {
         console.log('Batching Request');
         return runningRequests.get(type)
     }
